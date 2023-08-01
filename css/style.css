@@ -1,0 +1,176 @@
+body{
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+}
+.logo{
+	display: block;
+	margin:48px auto auto auto;
+}
+.picture{
+	width: 207px;
+	height: 153px;
+	
+}
+.picture_div{
+	display: flex;
+	justify-content: center;
+  margin-top: 54px;
+}
+h1{
+width: 327px;	
+color: #28283D;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 44px; /* 110% */
+margin: 48px auto auto auto;
+
+}
+.first_p{
+	width: 327px;
+	color: #87879D;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin:24px auto auto;
+}
+.v_13{
+  color: #8FE3F9;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+}
+.button{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 193px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 29px;
+background: #4D96A9;
+color: #FFF;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+ margin:32px auto auto;
+}
+.other_button{
+	border: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+width: 139px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 29px;
+background: #855FB1;
+color: #FFF;
+text-align: center;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+margin: 16px auto 64px;
+
+}
+.line{
+	width: 1px;
+   height: 84px;
+   flex-shrink: 0;
+   background-color: #87879D;
+   opacity: 0.25;
+   margin: auto;
+}
+.ball{
+	width: 56px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 29px;
+border: 1px solid rgba(135, 135, 157, 0.25);
+background-color: #FAFAFA;
+border-color:#87879D ;
+margin: auto;
+position: relative;
+
+}
+.one_symbol{
+	color: #87879D;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+.four_picture_div{
+  width: 327px;
+  height: 330px;
+  display: grid;
+  grid-template-columns:50% 50%;
+  margin:126px auto auto;
+  grid-gap: 25px 24px;
+}
+.img{
+  width: 151px;
+ height: 143px;
+flex-shrink: 0;
+border-radius: 10px;
+}
+h2{
+  color: #4D96A9;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px; /* 162.5% */
+letter-spacing: 4px;
+text-transform: uppercase;
+margin:64px auto auto;
+text-align: center;
+}
+h3{
+  width: 327px;
+  color: #28283D;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 112.5% */
+margin: 24px auto auto;
+}
+.second_p{
+  color: #87879D;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+width: 327px;
+margin: 32px auto 64px;
+}
+.background_img{
+  background-image: url("../assets/mobile/image-footer.jpg");
+
+
+}
